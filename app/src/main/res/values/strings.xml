@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UniversalController</string>
+    <string name="control_screen">Choose Controller</string>
 </resources>
