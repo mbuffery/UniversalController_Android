@@ -6,4 +6,80 @@
     android:layout_height="match_parent"
     tools:context="uk.co.alphaowl.universalcontroller.DpadControllerActivity">
 
+    <Button
+        android:id="@+id/downButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:text="▼"
+        android:textSize="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintTop_toBottomOf="@id/leftButton"
+        app:layout_constraintLeft_toRightOf="@id/leftButton"/>
+
+    <Button
+        android:id="@+id/leftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:text="◄"
+        android:textSize="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintTop_toBottomOf="@id/upButton"
+        app:layout_constraintLeft_toLeftOf="parent
+" />
+
+    <Button
+        android:id="@+id/upButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:text="▲"
+        android:textSize="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/leftButton"/>
+
+    <Button
+        android:id="@+id/rightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:text="►"
+        android:textSize="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintTop_toBottomOf="@id/upButton"
+        app:layout_constraintLeft_toRightOf="@id/upButton"/>
+
+    <Button
+        android:id="@+id/bButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorBlue"
+        android:text="B"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="60dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/aButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorRed"
+        android:text="A"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintTop_toBottomOf="@id/bButton"
+        app:layout_constraintRight_toLeftOf="@id/bButton" />
+
+
 </android.support.constraint.ConstraintLayout>
