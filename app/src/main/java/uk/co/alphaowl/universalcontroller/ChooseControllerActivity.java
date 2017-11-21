@@ -8,7 +8,8 @@ import android.widget.ImageButton;
 
 public class ChooseControllerActivity extends AppCompatActivity {
 
-    ImageButton button;
+    ImageButton dpadButton;
+    ImageButton joyStickButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,8 +23,19 @@ public class ChooseControllerActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        button= (ImageButton)findViewById(R.id.btn_controller1);
-        button.setOnClickListener(new View.OnClickListener() {
+        joyStickButton= (ImageButton)findViewById(R.id.btn_controller1);
+        joyStickButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(getApplicationContext(),JoystickControllerActivity.class);
+                startActivity(i);
+            }
+        });
+
+        dpadButton= (ImageButton)findViewById(R.id.btn_controller2);
+        dpadButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -33,6 +45,9 @@ public class ChooseControllerActivity extends AppCompatActivity {
             }
         });
 
+
+
     }
+
 }
 
