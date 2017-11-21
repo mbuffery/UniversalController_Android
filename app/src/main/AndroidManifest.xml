@@ -16,9 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ChooseControllerActivity"
-            android:label="@string/control_screen">
-        </activity>
+        <activity
+            android:name=".ChooseControllerActivity"
+            android:label="@string/control_screen" />
+        <activity
+            android:name=".JoystickControllerActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".DpadControllerActivity"
+            android:screenOrientation="landscape"></activity>
     </application>
 
 </manifest>
