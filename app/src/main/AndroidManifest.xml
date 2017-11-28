@@ -24,7 +24,8 @@
             android:screenOrientation="landscape" />
         <activity
             android:name=".DpadControllerActivity"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
+        <activity android:name=".GyroControllerActivity"></activity>
     </application>
 
 </manifest>
