@@ -23,7 +23,7 @@ public class ChooseControllerActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        joyStickButton= (ImageButton)findViewById(R.id.btn_controller1);
+        joyStickButton= findViewById(R.id.btn_controller1);
         joyStickButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -34,7 +34,7 @@ public class ChooseControllerActivity extends AppCompatActivity {
             }
         });
 
-        dpadButton= (ImageButton)findViewById(R.id.btn_controller2);
+        dpadButton= findViewById(R.id.btn_controller2);
         dpadButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
