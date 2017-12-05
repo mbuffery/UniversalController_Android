@@ -29,7 +29,7 @@ public class ChooseControllerActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(),JoystickControllerActivity.class);
+                Intent i = new Intent(getApplicationContext(),DpadControllerActivity.class);
                 startActivity(i);
             }
         });
@@ -40,7 +40,7 @@ public class ChooseControllerActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(),DpadControllerActivity.class);
+                Intent i = new Intent(getApplicationContext(),JoystickControllerActivity.class);
                 startActivity(i);
             }
         });

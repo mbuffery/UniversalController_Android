@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitStart"
-            android:src="@drawable/controller_joystick"
+            android:src="@drawable/controller_arrowkeys"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitStart"
-            android:src="@drawable/controller_arrowkeys"
+            android:src="@drawable/controller_joystick"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btn_controller1" />
