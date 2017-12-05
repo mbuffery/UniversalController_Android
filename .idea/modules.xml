@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://C:\Users\Dan\Documents\GitHub\UniversalController_Android\UniversalController.iml" filepath="C:\Users\Dan\Documents\GitHub\UniversalController_Android\UniversalController.iml" />
       <module fileurl="file://$PROJECT_DIR$/UniversalController_Android.iml" filepath="$PROJECT_DIR$/UniversalController_Android.iml" />
+      <module fileurl="file://C:\Users\mbuffery\Documents\GitHub\UniversalController_Android\UniversalController_Android.iml" filepath="C:\Users\mbuffery\Documents\GitHub\UniversalController_Android\UniversalController_Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\mbuffery\Documents\GitHub\UniversalController_Android\app\app.iml" filepath="C:\Users\mbuffery\Documents\GitHub\UniversalController_Android\app\app.iml" />
     </modules>
   </component>
 </project>
